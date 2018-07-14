@@ -9,6 +9,6 @@ rules:
     - error
     - singleQuote: true
       semi: true
-  eqeqeq:
-    - error
-    - always
+  eqeqeq: 2
+  no-var: 2
+  prefer-const: 2
