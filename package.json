@@ -7,11 +7,15 @@
   "author": "Brad Davies <varbrad@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
+    "build": "babel src/ -d lib/",
     "lint": "eslint \"src/**\"",
+    "prepublish": "yarn run build",
     "test": "jest"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.6",
+    "babel-preset-flow": "^6.23.0",
     "eslint": "^5.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-prettier": "^2.6.2",
