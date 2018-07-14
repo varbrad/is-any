@@ -14,21 +14,21 @@ yarn add is-any
 CommonJS
 
 ```javascript
-var isOr = require('is-any');
+var isAny = require('is-any');
 
 var d = 50
-isOr(d, 20, 40, 60) // false
-isOr(d, 30, 50, 70) // true
+isAny(d, 20, 40, 60) // false
+isAny(d, 30, 50, 70) // true
 ```
 
 ES6
 
 ```javascript
-import isOr from 'is-any';
+import isAny from 'is-any';
 
 const d = 60
-isOr(d, 1, 2, 3) // false
-isOr(d, 5, 9, 44, 28, 60, 23, 44, 11) // true
+isAny(d, 1, 2, 3) // false
+isAny(d, 5, 9, 44, 28, 60, 23, 44, 11) // true
 ```
 
 # Why?
@@ -44,7 +44,7 @@ if (value === 20 || value === 25 || value === 60) {
 After;
 
 ```javascript
-if (isOr(value, 20, 25, 60)) {
+if (isAny(value, 20, 25, 60)) {
   // do something
 }
 ```

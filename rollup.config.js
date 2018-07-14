@@ -3,6 +3,6 @@ export default {
   output: {
     file: 'build/bundle.js',
     format: 'umd',
-    name: 'isOr'
+    name: 'isAny'
   }
 };
