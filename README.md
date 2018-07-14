@@ -5,8 +5,8 @@ Simple alternative to large `or` chains in your code.
 Using `npm` or `yarn`.
 
 ```
-npm install is-or
-yarn add is-or
+npm install is-any
+yarn add is-any
 ```
 
 # Usage
@@ -14,7 +14,7 @@ yarn add is-or
 CommonJS
 
 ```javascript
-var isOr = require('is-or');
+var isOr = require('is-any');
 
 var d = 50
 isOr(d, 20, 40, 60) // false
@@ -24,7 +24,7 @@ isOr(d, 30, 50, 70) // true
 ES6
 
 ```javascript
-import isOr from 'is-or';
+import isOr from 'is-any';
 
 const d = 60
 isOr(d, 1, 2, 3) // false
