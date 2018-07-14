@@ -1,6 +1,6 @@
 {
   "name": "is-or",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Simple OR equality checker",
   "main": "build/bundle.js",
   "module": "src/index.js",
